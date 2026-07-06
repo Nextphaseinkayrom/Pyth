@@ -19,6 +19,6 @@ match pergunta:
     case 5:
         print('Sexta😘')
     case 6:
-        print('Então você gosta do sabado?kk boa😂')
+        print('Sabado? Boa😂')
     case 7:
         print('Domingo A noite😒')
