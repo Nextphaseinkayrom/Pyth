@@ -1,5 +1,8 @@
 from unittest import case
 
+
+#Um exercicio aonde eu tentei aprender Match e Usar emojis no python
+
 print('Yo.😁 Escolha um dia da semana que você gosta 1-7')
 
 pergunta = int(input('Digite Um numero. . .'))
@@ -18,4 +21,4 @@ match pergunta:
     case 6:
         print('Então você gosta do sabado?kk boa😂')
     case 7:
-        print('Maldito domingo a noite. . .😒')
+        print('Domingo A noite😒')
