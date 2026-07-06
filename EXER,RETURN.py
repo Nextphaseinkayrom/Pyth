@@ -1,0 +1,21 @@
+from unittest import case
+
+print('Yo.😁 Escolha um dia da semana que você gosta 1-7')
+
+pergunta = int(input('Digite Um numero. . .'))
+
+match pergunta:
+    case 1:
+       print('Segunda😢')
+    case 2:
+        print('terceira 😊')
+    case 3:
+        print('Quarta😒')
+    case 4:
+        print('Quinta👍👍')
+    case 5:
+        print('Sexta😘')
+    case 6:
+        print('Então você gosta do sabado?kk boa😂')
+    case 7:
+        print('Maldito domingo a noite. . .😒')
