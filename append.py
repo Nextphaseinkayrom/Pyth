@@ -6,6 +6,8 @@ print(lista)
 
 lista.append('User0')
 
+print(lista)
+
 
 # Aprendendo a usar um pouco de Append e Remove
 # Append = Adiciona algum conteúdo a mais para Variável/Lista
