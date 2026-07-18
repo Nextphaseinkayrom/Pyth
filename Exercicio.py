@@ -4,6 +4,6 @@
 
 print('Olá user ???')
 
-nome, idade, cidade = input('Digite seu nome, idade e cidade:). . .').split(",")
+nome, idade, cidade = input('Digite seu nome, idade e cidade:). . .').split()
 
-print(f"Olá {nome}.Seja bem vindo, vimos que sua idade é de{idade} Anos e Sua cidade é{cidade}")
+print(f"Olá {nome}.Seja bem vindo, vimos que sua idade é de {idade} Anos e Sua cidade é {cidade}")
