@@ -1,5 +1,16 @@
 pessoas = []
+
+def func_buscar():
+    print("Bem vindo buscar de usuario cadastrado's")
+    nomeper = str(input("Digite quem você deseja procurar: "))
+
+    for pessoa in pessoas:
+        if pessoa['nome'] == nomeper:
+            print(pessoa)
+
+
 def area1():
+
   print('\nSeja bem vindo a área de cadastro\nPor favor digite seu nome abaixo. . .')
   pessoas.append({
         "nome": input("Nome: "),
@@ -30,7 +41,7 @@ def area0():
       print(f'Usuarios cadastrados no momento são\n{pessoas}')
 
   elif pergunta == 3:
-      print('. . . .')
+      func_buscar()
   elif pergunta == 4:
       print("Saindo do programa. . .")
       break
