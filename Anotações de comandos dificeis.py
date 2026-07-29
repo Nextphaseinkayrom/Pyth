@@ -27,3 +27,6 @@
 #Usuario pode determinar uma chave onde o while para de agir, ou continua agindo
 
 #27/Julho/2026.
+
+#Parámetros da Def
+#É uma variável criada dentro dos parênteses de uma função para receber um valor quando a função é chamada.
