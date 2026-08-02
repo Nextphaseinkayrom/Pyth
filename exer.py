@@ -1,7 +1,11 @@
-def multiplicar():
- pergunta = int(input('Digite um numero pra multiplicação'))
- return pergunta * 2
+class Cachorros:
+ def __init__(self, nome, idade, vida):
+  self.nome = nome
+  self.idade = idade
+  self.vida = vida
 
-resultado = multiplicar()
+rex = Cachorros('rex', 5, 100)
 
-print(resultado)
+print(f"Nome: {rex.nome}")
+print(f"Idade: {rex.idade}")
+print(f"Vida: {rex.vida}")
