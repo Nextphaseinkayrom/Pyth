@@ -1,14 +1,25 @@
-class User:
 
-    def __init__(self,nome, idade, ano):
+class user:
+ def __init__(self,nome, idade, ano):
         self.nome = nome
         self.idade = idade
         self.ano = ano
+informacoes = user(nome, idade, ano)
 
-user1 = User('FirstUser', 20, 1980)
+perguntanome = input('Digite seu nome: ')
+informacoes.append(perguntanome)
 
-print(user1.nome)
+perguntaidade = input('Digite sua idade: ')
+informacoes.append(perguntaidade)
 
-print(user1.idade)
+perguntaano = input('Digite seu ano:')
+informacoes.append(perguntaano)
 
-print(user1.ano)
+
+print({ìnformacoes.nome})
+
+
+
+
+
+
