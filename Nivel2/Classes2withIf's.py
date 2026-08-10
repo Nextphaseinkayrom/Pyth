@@ -14,8 +14,4 @@ def verificacao():
  else:
     print('. . . Identificação negada, se retire. . .')
 
-
-
-
-
 verificacao()
