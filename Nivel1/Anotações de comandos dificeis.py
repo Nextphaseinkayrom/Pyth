@@ -30,3 +30,16 @@
 
 #Parámetros da Def
 #É uma variável criada dentro dos parênteses de uma função para receber um valor quando a função é chamada.
+
+
+# Person       → molde / classe
+# pessoa       → um
+# objeto
+# pessoas      → lista
+# de
+# objetos
+# for pessoa   → pega cada objeto da lista
+# self         → representa
+# o
+# objeto
+# atual
