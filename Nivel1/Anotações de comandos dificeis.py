@@ -40,6 +40,8 @@
 # objetos
 # for pessoa   → pega cada objeto da lista
 # self         → representa
-# o
+
 # objeto
 # atual
+
+# Args é uma maneira de armazenar vários argumentos. .
