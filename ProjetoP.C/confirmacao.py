@@ -11,8 +11,14 @@ pessoa2={
             "Senha": 9203
         }
 
+from menu_inicial import total
 
+def conf_compra():
+    print(f""""
+    Bem vindo a área de pagamento
 
-        #TENTAR RESOLVER O ERRO DOIMPORT QUE NÃO É DE DEUS
-
+    1 - Pix
+    2 - Voltar
+    3 - Finalizar programa
+    -- OBS a compra deu {total}""")
 
